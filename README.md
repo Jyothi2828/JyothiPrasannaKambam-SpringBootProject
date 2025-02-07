@@ -1,31 +1,69 @@
-# Product Management API
+# **Product Management API by Jyothi Prasanna Kambam**
 
-## Description  
-This is a Product Management API built using Spring Boot. It provides endpoints for creating, retrieving, updating, and deleting products. The API allows users to manage product information efficiently and supports various operations to maintain a product catalog.
+## **Description**  
+A simple CRUD (Create, Read, Update, Delete) API built with Spring Boot for managing product information.
 
-## Key Features  
-- **Create:** Create new products with detailed information.  
-- **Retrieve:** Retrieve a list of all products or a specific product by ID.  
-- **Update:** Update existing product details.  
-- **Delete:** Delete products from the catalog.  
+---
 
-## Technologies Used  
+## **Technologies Used**  
 - **Java**  
 - **Spring Boot**  
 - **PostgreSQL**  
-- **RESTful API principles**
+- **Postman**
 
-## Database  
-The application uses **PostgreSQL** as the database to store and manage product information.
+---
 
-## Project Flow  
-The application operates as a **RESTful API**, with a controller layer handling incoming requests and delegating business logic to the service layer. The `ProductController` class defines the endpoints for product management.
+## **CRUD Operations**  
+- **Create:** Add a new product (`POST /main/create-product`)  
+- **Read:** Get all products (`GET /main/getallproducts`)  
+- **Read by ID:** Get a specific product (`GET /main/get-product/{id}`)  
+- **Update:** Update product details (`PUT /main/update-product/{id}`)  
+- **Delete:** Remove a product (`DELETE /main/delete-product/{id}`)  
 
-## Endpoints  
-- **POST `/main/create-product`**: Creates a new product.  
-- **GET `/main/getallproducts`**: Retrieves all products.  
-- **GET `/main/get-product/{id}`**: Retrieves a product by its ID.  
-- **PUT `/main/update-product/{id}`**: Updates a product by its ID.  
-- **DELETE `/main/delete-product/{id}`**: Deletes a product by its ID.
+---
+
+## **Setup Instructions**
+
+### **1. Install PostgreSQL**
+- Download PostgreSQL from [https://www.postgresql.org/download/](https://www.postgresql.org/download/).
+- Follow the installer steps to complete the setup.
+- Create a database for the project, for example:
+Database Name: productdb Username: postgres
+Password: yourpassword
+---
+### **2. Install Eclipse**
+- Download Eclipse IDE from [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/).
+- Install and set up Eclipse for Java development.
+  
+---
+
+### **3. Install Postman**
+- Download Postman from [https://www.postman.com/downloads/](https://www.postman.com/downloads/).
+- Install Postman to test API endpoints for CRUD operations.
+
+---
+
+## **How to Run the Project**
+1. Clone or download this project.
+2. Import the project into Eclipse as a Maven project.
+3. Update `application.properties` with your PostgreSQL database details:
+spring.datasource.url=jdbc:postgresql://localhost:5432/productdb 
+spring.datasource.username=postgres spring.datasource.password=yourpassword
+4. Run the project as a **Spring Boot Application**.
+5. Use Postman to test the API endpoints.
+
+---
+
+## **Sample API Endpoints**
+- **POST** `/main/create-product`: Create a new product  
+- **GET** `/main/getallproducts`: Retrieve all products  
+- **GET** `/main/get-product/{id}`: Retrieve a product by ID  
+- **PUT** `/main/update-product/{id}`: Update a product  
+- **DELETE** `/main/delete-product/{id}`: Delete a product  
+
+---
+
+## **Screenshots**
+
 
 
