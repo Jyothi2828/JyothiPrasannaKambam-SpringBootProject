@@ -62,34 +62,33 @@ spring.datasource.username=postgres spring.datasource.password=yourpassword
 - **DELETE** `/main/delete-product/{id}`: Delete a product  
 
 ---
+# **Jyothi Prasanna Kambam's Product Management API**
 
 ## **Screenshots**
 
 ### 1. **Create Product**
-![Create Product](./screenshots/create-product.png)
+![Create Product](./Screenshots/create-product.png)
 
 ### 2. **Created Product**
-![Created Product](./screenshots/created-product.png)
+![Created Product](./Screenshots/created-product.png)
 
 ### 3. **Get All Products**
-![Get All Products](./screenshots/GetAllProducts.png)
+![Get All Products](./Screenshots/GetAllProducts.png)
 
 ### 4. **Get Product by ID**
-![Get Product by ID](./screenshots/getproductbyid.png)
+![Get Product by ID](./Screenshots/getproductbyid.png)
 
 ### 5. **Update Product**
-![Update Product](./screenshots/updatingproduct.png)
+![Update Product](./Screenshots/updatingproduct.png)
 
 ### 6. **Delete Product**
-![Delete Product](./screenshots/Delete-product.png)
+![Delete Product](./Screenshots/Delete-product.png)
 
 ### 7. **Validating Product Creation**
-![Validating Creation](./screenshots/validatingcreationofproduct.png)
+![Validating Creation](./Screenshots/validatingcreationofproduct.png)
 
 ### 8. **Validating Product Updation**
-![Validating Updation](./screenshots/validating-updation.png)
+![Validating Updation](./Screenshots/validating-updation.png)
 
 ### 9. **Validating Product Deletion**
-![Validating Deletion](./screenshots/validating-deletion.png)
-
----
+![Validating Deletion](./Screenshots/validating-deletion.png)
