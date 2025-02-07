@@ -65,5 +65,31 @@ spring.datasource.username=postgres spring.datasource.password=yourpassword
 
 ## **Screenshots**
 
+### 1. **Create Product**
+![Create Product](./screenshots/create-product.png)
 
+### 2. **Created Product**
+![Created Product](./screenshots/created-product.png)
 
+### 3. **Get All Products**
+![Get All Products](./screenshots/GetAllProducts.png)
+
+### 4. **Get Product by ID**
+![Get Product by ID](./screenshots/getproductbyid.png)
+
+### 5. **Update Product**
+![Update Product](./screenshots/updatingproduct.png)
+
+### 6. **Delete Product**
+![Delete Product](./screenshots/Delete-product.png)
+
+### 7. **Validating Product Creation**
+![Validating Creation](./screenshots/validatingcreationofproduct.png)
+
+### 8. **Validating Product Updation**
+![Validating Updation](./screenshots/validating-updation.png)
+
+### 9. **Validating Product Deletion**
+![Validating Deletion](./screenshots/validating-deletion.png)
+
+---
